@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>loviesdovies</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;color:#fff;text-align:center;background:linear-gradient(-45deg,#ff9ecb,#ff69b4,#ffc3e6,#ffd6ec);background-size:400% 400%;animation:bg 12s ease infinite}
+@keyframes bg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
+.hearts{position:fixed;inset:0;overflow:hidden;pointer-events:none}
+.hearts span{position:absolute;bottom:-40px;font-size:28px;animation:h 10s linear infinite;opacity:.7}
+.hearts span:nth-child(1){left:10%}.hearts span:nth-child(2){left:30%;animation-delay:2s}.hearts span:nth-child(3){left:50%;animation-delay:4s}.hearts span:nth-child(4){left:70%;animation-delay:1s}.hearts span:nth-child(5){left:90%;animation-delay:3s}
+@keyframes h{0%{transform:translateY(0)}100%{transform:translateY(-120vh) rotate(360deg);opacity:0}}
+.container{max-width:420px;margin:auto;padding:40px 20px}
+.profile{width:140px;height:140px;border-radius:50%;object-fit:cover;border:5px solid #fff;animation:f 3s ease-in-out infinite;box-shadow:0 0 25px #fff}
+@keyframes f{50%{transform:translateY(-10px)}}
+.card{background:rgba(255,255,255,.18);backdrop-filter:blur(15px);padding:24px;border-radius:20px;margin-top:25px}
+.btn{display:block;background:#fff;color:#ff4fa3;text-decoration:none;font-weight:bold;padding:16px;border-radius:12px;margin:14px 0;transition:.25s}
+.btn:hover{transform:translateY(-4px)}.btn:active{transform:scale(.96)}
+.main{background:#ff4fa3;color:#fff}
+</style></head>
+<body>
+<div class='hearts'><span>💖</span><span>💕</span><span>💗</span><span>💝</span><span>💞</span></div>
+<div class='container'>
+<img class='profile' src='images/profile.jpg' alt='Profile'>
+<h1 style='margin:20px 0 8px'>loviesdovies</h1>
+<p>Get your templates ✨</p>
+<div class='card'>
+<a class='btn main' href='free.html'>🎁 Free Template</a>
+<a class='btn' href='shop.html'>🛍️ Shop Templates</a>
+<a class='btn' href='tip.html'>💰 Tip Me</a>
+<a class='btn' href='https://instagram.com/yourusername'>❤️ Follow Me</a>
+</div>
+<p style='margin-top:20px'>© 2026 loviesdovies</p>
+</div>
+</body></html>
