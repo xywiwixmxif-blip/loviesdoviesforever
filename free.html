@@ -3,30 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>Free Template - loviesdovies</title>
+<title>Free Templates - loviesdovies</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;color:#fff;text-align:center;background:linear-gradient(-45deg,#ff9ecb,#ff69b4,#ffc3e0);background-size:400% 400%;animation:bg 10s ease infinite;min-height:100vh}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,sans-serif}
+body{background:linear-gradient(-45deg,#ff9ecb,#ff69b4,#ffc3e0);background-size:400% 400%;animation:bg 10s ease infinite;color:#fff;min-height:100vh}
 @keyframes bg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
-.container{max-width:420px;margin:auto;padding:40px 20px}
-.back{display:inline-block;color:#fff;text-decoration:none;margin-bottom:20px;font-weight:bold}
-.tcard{background:rgba(255,255,255,.18);backdrop-filter:blur(15px);border-radius:20px;padding:20px;margin-bottom:20px}
-.tcard img{width:100%;border-radius:14px;margin-bottom:14px}
-.tcard h3{margin-bottom:6px}
-.tcard p{font-size:14px;opacity:.9;margin-bottom:14px}
-.btn{display:block;background:#fff;color:#ff4fa3;text-decoration:none;font-weight:bold;padding:14px;border-radius:12px}
+.wrap{max-width:480px;margin:auto;padding:30px 20px 60px}
+.back{display:inline-block;color:#fff;text-decoration:none;margin-bottom:16px;font-weight:bold}
+h1{text-align:center;margin-bottom:6px}
+.sub{text-align:center;opacity:.9;margin-bottom:30px;font-size:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.tile{background:rgba(255,255,255,.2);backdrop-filter:blur(10px);border-radius:16px;padding:18px 10px;text-align:center;text-decoration:none;color:#fff;font-weight:bold;transition:.2s}
+.tile:active{transform:scale(.96)}
+.tile .emoji{font-size:28px;display:block;margin-bottom:8px}
+.tile .name{font-size:13px;line-height:1.3}
 </style></head>
 <body>
-<div class='container'>
-<a class='back' href='index.html'>← Back</a>
-<h1>🎁 Free Template</h1>
-<p style='margin:10px 0 30px'>Tap to open and customize in Canva ✨</p>
+<div class='wrap'>
+<a class='back' href='index.html'>&larr; Back</a>
+<h1>🎁 Free Templates</h1>
+<p class='sub'>Tap a style to preview &amp; use ✨</p>
 
-<div class='tcard'>
-<img src='images/template-preview1.jpg' alt='Template preview'>
-<h3>Template Name</h3>
-<p>Short description here</p>
-<a class='btn' href='PASTE_YOUR_CANVA_TEMPLATE_LINK_HERE' target='_blank'>Use This Template</a>
+<div class='grid'>
+<a class='tile' href='luxury.html'><span class='emoji'>✨</span><span class='name'>Black &amp; Gold Luxury</span></a>
+<a class='tile' href='cute.html'><span class='emoji'>🌸</span><span class='name'>Pink Aesthetic</span></a>
+<a class='tile' href='minimal.html'><span class='emoji'>🤍</span><span class='name'>White &amp; Beige</span></a>
+<a class='tile' href='darklove.html'><span class='emoji'>🌙</span><span class='name'>Dark Romantic</span></a>
+<a class='tile' href='lavender.html'><span class='emoji'>💜</span><span class='name'>Soft Purple</span></a>
+<a class='tile' href='rose.html'><span class='emoji'>🌹</span><span class='name'>Rose Garden</span></a>
+<a class='tile' href='kawaii.html'><span class='emoji'>🧸</span><span class='name'>Kawaii Style</span></a>
+<a class='tile' href='glass.html'><span class='emoji'>💎</span><span class='name'>Glassmorphism</span></a>
+<a class='tile' href='coquette.html'><span class='emoji'>🎀</span><span class='name'>Coquette</span></a>
+<a class='tile' href='ocean.html'><span class='emoji'>🌊</span><span class='name'>Ocean Romance</span></a>
 </div>
 
 </div>
